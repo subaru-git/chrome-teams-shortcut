@@ -20,6 +20,27 @@
         "mac": "Alt+M"
       },
       "description": "Toggle mute"
+    },
+    "toggle-video": {
+      "suggested_key": {
+        "default": "Alt+V",
+        "mac": "Alt+V"
+      },
+      "description": "Toggle video"
+    },
+    "show-device-setting": {
+      "suggested_key": {
+        "default": "Alt+D",
+        "mac": "Alt+D"
+      },
+      "description": "Show device setting"
+    },
+    "show-chat": {
+      "suggested_key": {
+        "default": "Alt+C",
+        "mac": "Alt+C"
+      },
+      "description": "Show chat"
     }
   },
   "background": {
