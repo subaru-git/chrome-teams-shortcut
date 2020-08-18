@@ -1,0 +1,29 @@
+{
+  "name": "microsoft teams shortcut",
+  "version": "1.0",
+  "description": "microsoft teams web app shortcuts",
+  "manifest_version": 2,
+  "icons": {
+    "16": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+  "permissions": ["https://teams.microsoft.com/*"],
+  "content_scripts": [{
+    "matches": ["https://teams.microsoft.com/*"],
+    "js": ["js/contentScript.js"]
+  }],
+  "commands": {
+    "toggle-mute": {
+      "suggested_key": {
+        "default": "Alt+M",
+        "mac": "Alt+M"
+      },
+      "description": "Toggle mute"
+    }
+  },
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistant": false
+  }
+}
