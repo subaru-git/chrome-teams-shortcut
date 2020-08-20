@@ -14,12 +14,19 @@
     "js": ["js/contentScript.js"]
   }],
   "commands": {
-    "toggle-mute": {
+    "mute-on": {
       "suggested_key": {
         "default": "Alt+M",
         "mac": "Alt+M"
       },
-      "description": "Toggle mute"
+      "description": "Mute on"
+    },
+    "mute-off": {
+      "suggested_key": {
+        "default": "Alt+Shift+M",
+        "mac": "Alt+Shift+M"
+      },
+      "description": "Mute off"
     },
     "toggle-video": {
       "suggested_key": {
@@ -34,13 +41,6 @@
         "mac": "Alt+D"
       },
       "description": "Show device setting"
-    },
-    "show-chat": {
-      "suggested_key": {
-        "default": "Alt+C",
-        "mac": "Alt+C"
-      },
-      "description": "Show chat"
     }
   },
   "background": {
