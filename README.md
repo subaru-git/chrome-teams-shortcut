@@ -4,8 +4,7 @@ Chrome extension for microsoft teams. This extension add shortcuts at meeting.
 
 ## Motivation
 
-In long long meetings like mob programming, I often away from the keyboard that thinking, stretch, and more. At that time I listening to the meeting but the mic is muted. So I want to unmute by remote control not watch display. i.g. Nintendo switch controller with JotKeyMapper.
-Microsoft teams already have shortcuts. But that only toggles mute. I can't understand the muted without looking display. I want a mute shortcut without a toggle.
+In long, long meetings like mob programming, I often away from the keyboard that thinking, stretch, and more. At that time, I listen to the meeting, but the mic is muted. So I want to unmute by remote control, not watch display. i.g. Nintendo switch controller with JotKeyMapper. Microsoft teams already have shortcuts. But that only toggles mute. I can't understand the muted without looking display. I want a mute shortcut without a toggle.
 
 ## How to install
 
